@@ -1,4 +1,4 @@
-unction tocaSom (seletorAudio) {
+function tocaSom (seletorAudio) {
     const elemento = document.querySelector(seletorAudio);
 
     if (elemento && elemento.localName === 'audio') {
@@ -37,4 +37,3 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
     }
 
 }
-
